@@ -1,0 +1,200 @@
+Reading checkpoint from /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841
+DEBUG: Inside tracer: child_pid=1249
+ Found the [vvar] in the binary, but not in the checkpoint. This is probably fine and a is a result of a bug in PIN or ptrace during checkpoint creation. So we'll skip sanity checks for this region.
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/0.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/1.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/2.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/3.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/4.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/5.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/6.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/7.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/8.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/9.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/10.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/11.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/12.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/13.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/14.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/15.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/16.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/17.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/18.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/19.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/20.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/21.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/22.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/23.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/24.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/25.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/30.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/33.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/35.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/38.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/39.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/40.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/41.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/43.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/46.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/53.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/55.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/58.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/59.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/60.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/61.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/62.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/63.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/64.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/65.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/66.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/68.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/71.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/73.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/76.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/77.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/78.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/79.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/80.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/81.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/82.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/83.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/84.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/85.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/86.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/87.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/88.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/89.dat
+done
+bzip2 -dc /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841/90.dat
+done
+DEBUG: load_fp_state: mmapped address: 7ffff7eac000
+DEBUG: load_fp_state: initiating memcpy 55555576a1c0 -> 1249:7ffff7eac000
+DEBUG: load_fp_state: execute xrstor: pid: 1249, addr: 7ffff7eac000, edx: 0, eax: ff
+DEBUG: load_fp_state: munmap: pid: 1249, addr: 7ffff7eac000, size: 2688
+DEBUG: load_fp_state: DONE
+DEBUG: About to GETREGS for load_registers()
+
+DEBUG: About to SETREGS for load_registers()
+
+DEBUG: load_registers() DONE
+
+DEBUG: jump_to_infinite_loop: mmapped address: 7ffff7eac000
+DEBUG: jump_to_infinite_loop: execute jump to loop: pid: 1249, addr: 7ffff7eac000
+Scarab gitrev: d548425
+Listening for new clients
+accepting for new clients
+Server verified connection.
+Client verified connection.
+Scarab started at Sat Oct 31 07:56:04 2020
+
+Initialized Ramulator. 
+** Heartbeat:   3% -- { 1000001 } -- 0.00 KIPS (83.33 KIPS)
+** Heartbeat:   6% -- { 2000001 } -- 83.33 KIPS (83.33 KIPS)
+** Heartbeat:  10% -- { 3000006 } -- 100.00 KIPS (88.24 KIPS)
+** Heartbeat:  13% -- { 4000010 } -- 90.91 KIPS (88.89 KIPS)
+** Heartbeat:  16% -- { 5000012 } -- 100.00 KIPS (90.91 KIPS)
+** Heartbeat:  20% -- { 6000013 } -- 100.00 KIPS (92.31 KIPS)
+** Heartbeat:  23% -- { 7000013 } -- 52.63 KIPS (83.33 KIPS)
+** Heartbeat:  26% -- { 8000013 } -- 52.63 KIPS (77.67 KIPS)
+** Heartbeat:  30% -- { 9000014 } -- 47.62 KIPS (72.58 KIPS)
+** Heartbeat:  33% -- { 10000014 } -- 62.50 KIPS (71.43 KIPS)
+** Heartbeat:  36% -- { 11000014 } -- 45.45 KIPS (67.90 KIPS)
+** Heartbeat:  40% -- { 12000014 } -- 43.48 KIPS (64.86 KIPS)
+** Heartbeat:  43% -- { 13000017 } -- 45.45 KIPS (62.80 KIPS)
+** Heartbeat:  46% -- { 14000020 } -- 43.48 KIPS (60.87 KIPS)
+** Heartbeat:  50% -- { 15000023 } -- 40.00 KIPS (58.82 KIPS)
+** Heartbeat:  53% -- { 16000027 } -- 45.45 KIPS (57.76 KIPS)
+** Heartbeat:  56% -- { 17000027 } -- 43.48 KIPS (56.67 KIPS)
+** Heartbeat:  60% -- { 18000032 } -- 45.45 KIPS (55.90 KIPS)
+** Heartbeat:  63% -- { 19000034 } -- 50.00 KIPS (55.56 KIPS)
+** Heartbeat:  66% -- { 20000036 } -- 45.45 KIPS (54.95 KIPS)
+** Heartbeat:  70% -- { 21000037 } -- 41.67 KIPS (54.12 KIPS)
+** Heartbeat:  73% -- { 22000037 } -- 50.00 KIPS (53.92 KIPS)
+** Heartbeat:  76% -- { 23000037 } -- 47.62 KIPS (53.61 KIPS)
+** Heartbeat:  80% -- { 24000041 } -- 55.56 KIPS (53.69 KIPS)
+** Heartbeat:  83% -- { 25000041 } -- 52.63 KIPS (53.65 KIPS)
+** Heartbeat:  86% -- { 26000041 } -- 47.62 KIPS (53.39 KIPS)
+** Heartbeat:  90% -- { 27000041 } -- 50.00 KIPS (53.25 KIPS)
+** Heartbeat:  93% -- { 28000041 } -- 76.92 KIPS (53.85 KIPS)
+** Heartbeat:  96% -- { 29000045 } -- 100.00 KIPS (54.72 KIPS)
+Inside redirect analysis
+About to redirect to 404eef
+** Core 0 Finished:    insts:30000000    cycles:14668304    time:4583845000000       -- 2.05 IPC (2.05 IPC) --  N/A  KIPS (55.45 KIPS)
+Scarab finished at Sat Oct 31 08:05:05 2020
+
+DEBUG: PIN COMMAND: /home/siyuan/ee382n-1/gradlab/pinplay-drdebug-3.5-pin-3.5-97503-gac534ca30-gcc-linux/pin -mt 0 -pid 1249 -t /home/siyuan/ee382n-1/gradlab/scarab/src/pin/pin_exec/obj-intel64/pin_exec.so -rip 0x404eef -socket_path /tmp/Scarab_Temp_WorkDir_n80rxz3u/socket -core_id 0
+
+Launching Scarab:
+/home/siyuan/ee382n-1/gradlab/scarab/src/scarab --num_cores 1 --pin_exec_driven_fe_socket /tmp/Scarab_Temp_WorkDir_n80rxz3u/socket --bindir /home/siyuan/ee382n-1/gradlab/scarab/bin --inst_limit 30000000
+
+
+Core 0 is running checkpoint: /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841
+setarch x86_64 -R /home/siyuan/ee382n-1/gradlab/scarab/utils/checkpoint/loader/checkpoint_loader /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841 /tmp/Scarab_Temp_WorkDir_n80rxz3u/socket 0 /home/siyuan/ee382n-1/gradlab/scarab/src/pin/pin_exec/obj-intel64/pin_exec.so
+
+RETURN CODE 0: /home/siyuan/ee382n-1/gradlab/scarab/src/scarab --num_cores 1 --pin_exec_driven_fe_socket /tmp/Scarab_Temp_WorkDir_n80rxz3u/socket --bindir /home/siyuan/ee382n-1/gradlab/scarab/bin --inst_limit 30000000
+
+RETURN CODE 0: setarch x86_64 -R /home/siyuan/ee382n-1/gradlab/scarab/utils/checkpoint/loader/checkpoint_loader /home/siyuan/ee382n-1/gradlab/scarab/spec06_checkpoints_ref/bzip2_06/ref/bzip2_06_ref0_checkpoint3_0.38756_127380028841 /tmp/Scarab_Temp_WorkDir_n80rxz3u/socket 0 /home/siyuan/ee382n-1/gradlab/scarab/src/pin/pin_exec/obj-intel64/pin_exec.so
+
+Notify: Scarab run terminated, cleaning up...
