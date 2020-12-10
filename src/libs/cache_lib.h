@@ -38,8 +38,8 @@
 #define INIT_CACHE_DATA_VALUE \
   ((void*)0x8badbeef) /* set data pointers to this initially */
 
-
 /**************************************************************************************/
+
 
 typedef enum Repl_Policy_enum {
   REPL_TRUE_LRU,    /* actual least-recently-used replacement */
@@ -54,7 +54,9 @@ typedef enum Repl_Policy_enum {
                          isn't stored at the cache */
   REPL_MLP,           /* mlp based replacement  -- uses MLP_REPL_POLICY */
   REPL_PARTITION,     /* Based on the partition*/
+  REPL_SRRIP,//SRRIP: added part
   NUM_REPL
+  
 } Repl_Policy;
 
 typedef struct Cache_Entry_struct {
@@ -68,6 +70,8 @@ typedef struct Cache_Entry_struct {
   Flag    pref;             /* extra replacement info */
   Flag dirty; /* Dirty bit should have been here, however this is used only in
                  warmup now */
+  //SRRIP: whether to add 
+  int  RRPV;
 } Cache_Entry;
 
 // DO NOT CHANGE THIS ORDER
@@ -78,6 +82,7 @@ typedef enum Cache_Insert_Repl_enum {
                          order*/
   INSERT_REPL_MID, /* Insert such that it is Middle(Roughly) of the repl order*/
   INSERT_REPL_MRU, /* Insert into MRU position */
+  INSERT_SRRIP,//SSRIP 
   NUM_INSERT_REPL
 } Cache_Insert_Repl;
 

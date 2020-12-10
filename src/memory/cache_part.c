@@ -113,7 +113,7 @@ void cache_part_init(void) {
     char       buf[MAX_STR_LENGTH + 1];
     sprintf(buf, "SHADOW L1[%d]", proc_id);
     init_cache(&proc_info->shadow_cache, buf, L1_SIZE, L1_ASSOC, L1_LINE_SIZE,
-               sizeof(Shadow_Cache_Data), REPL_TRUE_LRU);
+               sizeof(Shadow_Cache_Data), REPL_SRRIP);
     proc_info->miss_rates = calloc(L1_ASSOC, sizeof(double));
   }
 

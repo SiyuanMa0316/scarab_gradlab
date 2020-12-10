@@ -43,6 +43,8 @@
 // DeleteMe
 #define ideal_num_entries 256
 
+#define MAX_RRIP 7
+
 /**************************************************************************************/
 /* Macros */
 
@@ -125,6 +127,9 @@ void init_cache(Cache* cache, const char* name, uns cache_size, uns assoc,
     /* allocate memory for all of the data elements in each line */
     for(jj = 0; jj < assoc; jj++) {
       cache->entries[ii][jj].valid = FALSE;
+      //SRRIP value
+      //cache->entries[ii][jj].RRPV = 0;
+      //stops here
       if(data_size) {
         cache->entries[ii][jj].data = (void*)malloc(data_size);
         memset(cache->entries[ii][jj].data, 0, data_size);
@@ -218,7 +223,12 @@ void* cache_access(Cache* cache, Addr addr, Addr* line_addr, Flag update_repl) {
       ASSERT(0, line->data);
       DEBUG(0, "Found line in cache '%s' at (set %u, way %u, base 0x%s)\n",
             cache->name, set, ii, hexstr64s(line->base));
-
+    //SRRIP codes starts here
+     /* if (cache->repl_policy == SRRIP)
+        {
+           line->RRPV = 0; //if hit set RRPV to 0
+        }*/
+    //SRRIP codes stop here
       if(update_repl) {
         if(line->pref) {
           line->pref = FALSE;
@@ -227,8 +237,8 @@ void* cache_access(Cache* cache, Addr addr, Addr* line_addr, Flag update_repl) {
         update_repl_policy(cache, line, set, ii, FALSE);
       }
 
-      if(update_repl)
-        update_repl_policy(cache, line, set, ii, FALSE);
+      // if(update_repl)
+      //   update_repl_policy(cache, line, set, ii, FALSE);
 
       return line->data;
     }
@@ -448,6 +458,7 @@ void* get_next_repl_line(Cache* cache, uns8 proc_id, Addr addr,
 /**************************************************************************************/
 /* find_repl_entry: Returns the cache lib entry that will be the next to be
    replaced. This call should not change any of the state information. */
+//important
 
 Cache_Entry* find_repl_entry(Cache* cache, uns8 proc_id, uns set, uns* way) {
   int ii;
@@ -470,6 +481,44 @@ Cache_Entry* find_repl_entry(Cache* cache, uns8 proc_id, uns set, uns* way) {
       *way = lru_ind;
       return &cache->entries[set][lru_ind];
     } break;
+//modification starts here
+    case REPL_SRRIP:
+    {
+      int     rrip_ind  = -1;
+      //MAX_RRPV should be # of ways of fewer
+      for(ii = 0; ii < cache->assoc; ii++) {
+        Cache_Entry* entry = &cache->entries[set][ii];
+        //if have invalid cache line, directly choose invalid line
+        if(!entry->valid) {
+          rrip_ind = ii;
+         // do this in update_repl_policy
+        // entry->last_access_time = MAX_RRPV-1;
+          break;}
+      }
+      while (rrip_ind < 0) //Siyuan: should be <0?
+       {
+          for(ii = 0; ii < cache->assoc; ii++) {
+            Cache_Entry* entry = &cache->entries[set][ii];
+            //RRPV_value
+            if(entry->RRPV==MAX_RRIP) { 
+              rrip_ind  = ii;
+              // do this in update_repl_policy
+              //entry->RRPV = MAX_RRPV-1;
+              break;
+            }
+          }
+          // if fails to find max(RRPV), increment each RRPV
+          for(ii = 0; ii < cache->assoc; ii++) {
+            Cache_Entry* entry = &cache->entries[set][ii];
+            if(entry->valid)
+                entry->RRPV++;
+          }
+      }
+      *way = (uns)rrip_ind;
+      return &cache->entries[set][rrip_ind];
+    }
+    break;
+//modified codes stop here
     case REPL_RANDOM:
     case REPL_NOT_MRU:
     case REPL_ROUND_ROBIN:
@@ -576,6 +625,10 @@ static inline void update_repl_policy(Cache* cache, Cache_Entry* cur_entry,
     case REPL_TRUE_LRU:
     case REPL_PARTITION:
       cur_entry->last_access_time = sim_time;
+      break;
+    case REPL_SRRIP:
+      if(repl == TRUE) cur_entry->RRPV = MAX_RRIP-1;
+      else cur_entry->RRPV = 0;
       break;
     case REPL_RANDOM: {
       char* old_rand_state  = (char*)setstate(rand_repl_state);
@@ -1012,6 +1065,8 @@ void reset_cache(Cache* cache) {
   for(ii = 0; ii < cache->num_sets; ii++) {
     for(jj = 0; jj < cache->assoc; jj++) {
       cache->entries[ii][jj].valid = FALSE;
+      //SRRIP
+      //cache->entries[ii][jj].RRPV = 0;
     }
   }
 }
